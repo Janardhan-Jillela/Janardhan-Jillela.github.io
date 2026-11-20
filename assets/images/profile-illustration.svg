@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cyberGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <filter id="glowAvatar" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient Outer Glow Circle -->
+  <circle cx="250" cy="250" r="210" fill="url(#avatarBg)"/>
+  <circle cx="250" cy="250" r="210" fill="none" stroke="url(#ringGrad)" stroke-width="4" filter="url(#glowAvatar)"/>
+  <circle cx="250" cy="250" r="222" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="10 15" opacity="0.6"/>
+
+  <!-- Neural Mesh Grid -->
+  <g stroke="#38bdf8" stroke-width="1.2" opacity="0.35">
+    <line x1="120" y1="180" x2="200" y2="130"/>
+    <line x1="200" y1="130" x2="300" y2="130"/>
+    <line x1="300" y1="130" x2="380" y2="180"/>
+    <line x1="120" y1="180" x2="170" y2="260"/>
+    <line x1="380" y1="180" x2="330" y2="260"/>
+    <line x1="170" y1="260" x2="250" y2="310"/>
+    <line x1="330" y1="260" x2="250" y2="310"/>
+    <line x1="200" y1="130" x2="250" y2="210"/>
+    <line x1="300" y1="130" x2="250" y2="210"/>
+    <line x1="250" y1="210" x2="250" y2="310"/>
+    <line x1="170" y1="260" x2="250" y2="210"/>
+    <line x1="330" y1="260" x2="250" y2="210"/>
+  </g>
+
+  <!-- Neural Nodes -->
+  <circle cx="120" cy="180" r="4.5" fill="#06b6d4"/>
+  <circle cx="200" cy="130" r="5.5" fill="#38bdf8"/>
+  <circle cx="300" cy="130" r="5.5" fill="#818cf8"/>
+  <circle cx="380" cy="180" r="4.5" fill="#a855f7"/>
+  <circle cx="170" cy="260" r="5" fill="#34d399"/>
+  <circle cx="330" cy="260" r="5" fill="#f43f5e"/>
+  <circle cx="250" cy="210" r="7" fill="#ffffff" filter="url(#glowAvatar)"/>
+  <circle cx="250" cy="310" r="6" fill="#38bdf8"/>
+
+  <!-- Stylized Monogram / AI Core Avatar -->
+  <g transform="translate(160, 160)">
+    <!-- Hexagonal Core Shield -->
+    <polygon points="90,10 165,55 165,145 90,190 15,145 15,55" fill="#0f172a" stroke="url(#ringGrad)" stroke-width="3.5"/>
+    
+    <!-- Monogram JJ -->
+    <text x="90" y="115" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="52" fill="url(#cyberGrad)" text-anchor="middle" letter-spacing="2">JJ</text>
+    <text x="90" y="142" font-family="'JetBrains Mono', monospace" font-weight="600" font-size="12" fill="#10b981" text-anchor="middle" letter-spacing="3">&lt;DATA/AI&gt;</text>
+  </g>
+
+  <!-- Live Pulse Status Indicator -->
+  <g transform="translate(345, 335)">
+    <circle cx="0" cy="0" r="24" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+    <circle cx="0" cy="0" r="10" fill="#10b981" filter="url(#glowAvatar)"/>
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#10b981" stroke-width="2" opacity="0.6"/>
+  </g>
+</svg>
