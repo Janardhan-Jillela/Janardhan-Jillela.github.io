@@ -342,67 +342,67 @@ function initTerminal() {
 
   const commands = {
     help: () => `
-<span style="color: var(--accent-cyan-bright); font-weight: 700;">Available Terminal Commands:</span>
-  • <span style="color:#f59e0b;">about</span>       - Executive summary & bio
-  • <span style="color:#f59e0b;">skills</span>      - Technical skill inventory
-  • <span style="color:#f59e0b;">projects</span>    - Featured AI/ML repositories on GitHub
-  • <span style="color:#f59e0b;">certs</span>       - Verified certifications & credentials
-  • <span style="color:#f59e0b;">experience</span>  - Internship & industry background
-  • <span style="color:#f59e0b;">education</span>   - B.Tech degree & academic metrics
-  • <span style="color:#f59e0b;">contact</span>     - Email, phone, LinkedIn, and GitHub
-  • <span style="color:#f59e0b;">github</span>      - Launch Janardhan's GitHub profile
-  • <span style="color:#f59e0b;">clear</span>       - Clear the terminal screen
+<span style="color: #CCD0CF; font-weight: 700;">Available Terminal Commands:</span>
+  • <span style="color:#9BA8AB;">about</span>       - Executive summary & bio
+  • <span style="color:#9BA8AB;">skills</span>      - Technical skill inventory
+  • <span style="color:#9BA8AB;">projects</span>    - Featured AI/ML repositories on GitHub
+  • <span style="color:#9BA8AB;">certs</span>       - Verified certifications & credentials
+  • <span style="color:#9BA8AB;">experience</span>  - Internship & industry background
+  • <span style="color:#9BA8AB;">education</span>   - B.Tech degree & academic metrics
+  • <span style="color:#9BA8AB;">contact</span>     - Email, phone, LinkedIn, and GitHub
+  • <span style="color:#9BA8AB;">github</span>      - Launch Janardhan's GitHub profile
+  • <span style="color:#9BA8AB;">clear</span>       - Clear the terminal screen
 `,
     about: () => `
-<span style="color: #38bdf8; font-weight: 700;">Jillela Janardhan</span> — B.Tech Graduate in Computer Science &amp; Engineering (Data Science) from RGMCET.
+<span style="color: #CCD0CF; font-weight: 700;">Jillela Janardhan</span> — B.Tech Graduate in Computer Science &amp; Engineering (Data Science) from RGMCET.
 Passionate about engineering production-grade AI solutions, real-time computer vision (YOLOv8/v9, ResNet50, OpenCV),
 and deploying interactive Streamlit applications. Proficient in Python, SQL, and Deep Learning pipelines.
 `,
     skills: () => `
-<span style="color: #38bdf8; font-weight: 700;">Core Technical Arsenal:</span>
+<span style="color: #CCD0CF; font-weight: 700;">Core Technical Arsenal:</span>
   [<span style="color: #10b981;">AI/CV</span>]       PyTorch, OpenCV, YOLOv8, YOLOv9, ResNet-50, Bi-LSTM, Scikit-learn
-  [<span style="color: #6366f1;">Languages</span>]   Python (Advanced), Java, MySQL, HTML5, CSS3, JavaScript
-  [<span style="color: #a855f7;">Data</span>]        Pandas, NumPy, Matplotlib, Seaborn, Feature Engineering, EDA
-  [<span style="color: #f59e0b;">Tools</span>]       Streamlit, Git, GitHub, VS Code, Google Colab, Jupyter, Excel
-  [<span style="color: #06b6d4;">Theory</span>]      Object-Oriented Programming (OOP), Data Structures & Algorithms (DSA)
+  [<span style="color: #9BA8AB;">Languages</span>]   Python (Advanced), Java, MySQL, HTML5, CSS3, JavaScript
+  [<span style="color: #CCD0CF;">Data</span>]        Pandas, NumPy, Matplotlib, Seaborn, Feature Engineering, EDA
+  [<span style="color: #4A5C6A;">Tools</span>]       Streamlit, Git, GitHub, VS Code, Google Colab, Jupyter, Excel
+  [<span style="color: #9BA8AB;">Theory</span>]      Object-Oriented Programming (OOP), Data Structures & Algorithms (DSA)
 `,
     projects: () => `
-<span style="color: #38bdf8; font-weight: 700;">Featured GitHub Repositories:</span>
-  1. <a href="https://github.com/Janardhan-Jillela/AI-Food-Quality-Inspection" target="_blank" style="color:#10b981; text-decoration: underline;">AI-Food-Quality-Inspection</a>
+<span style="color: #CCD0CF; font-weight: 700;">Featured GitHub Repositories:</span>
+  1. <a href="https://github.com/Janardhan-Jillela/AI-Food-Quality-Inspection" target="_blank" style="color:#CCD0CF; text-decoration: underline;">AI-Food-Quality-Inspection</a>
      • 86.14% Test Accuracy | YOLOv9 + ResNet50 + Bi-LSTM Produce Quality Assessment
-  2. <a href="https://github.com/Janardhan-Jillela/Object-Detection-Dashboard" target="_blank" style="color:#10b981; text-decoration: underline;">Object-Detection-Dashboard</a>
+  2. <a href="https://github.com/Janardhan-Jillela/Object-Detection-Dashboard" target="_blank" style="color:#CCD0CF; text-decoration: underline;">Object-Detection-Dashboard</a>
      • 80+ FPS | Real-time Webcam & Video Streamlit App using YOLOv8 & OpenCV
-  3. <a href="https://github.com/Janardhan-Jillela/tesla_stock_analytics" target="_blank" style="color:#10b981; text-decoration: underline;">tesla_stock_analytics</a>
+  3. <a href="https://github.com/Janardhan-Jillela/tesla_stock_analytics" target="_blank" style="color:#CCD0CF; text-decoration: underline;">tesla_stock_analytics</a>
      • Logistic Regression Financial Trend Classifier & Seaborn EDA Suite
 `,
     certs: () => `
-<span style="color: #38bdf8; font-weight: 700;">Professional Certifications:</span>
-  • <span style="color:#a855f7;">Oracle University</span>: Agentic AI Certified Foundations Associate (Aug 2026)
-  • <span style="color:#06b6d4;">DataCamp</span>: Data Analyst Associate (Feb 2025 – Mar 2025)
-  • <span style="color:#f59e0b;">Codio via edX</span>: Java Programming: Basic Skills (Apr 2024)
+<span style="color: #CCD0CF; font-weight: 700;">Professional Certifications:</span>
+  • <span style="color:#CCD0CF;">Oracle University</span>: Agentic AI Certified Foundations Associate (Aug 2026)
+  • <span style="color:#9BA8AB;">DataCamp</span>: Data Analyst Associate (Feb 2025 – Mar 2025)
+  • <span style="color:#9BA8AB;">Codio via edX</span>: Java Programming: Basic Skills (Apr 2024)
 `,
     experience: () => `
-<span style="color: #38bdf8; font-weight: 700;">Internship Experience:</span>
+<span style="color: #CCD0CF; font-weight: 700;">Internship Experience:</span>
   • <span style="color: #10b981;">Data Analysis Using Python Intern</span> — APSSDC (May 2025 – Jul 2025)
     Conducted data cleaning, preprocessing, exploratory data analysis, and statistical visualization
     on real-world datasets with Python, Pandas, NumPy, and Seaborn. Version controlled via GitHub.
 `,
     education: () => `
-<span style="color: #38bdf8; font-weight: 700;">Academic Credentials:</span>
-  • <span style="color: #38bdf8;">B.Tech in Computer Science and Engineering (Data Science)</span>
+<span style="color: #CCD0CF; font-weight: 700;">Academic Credentials:</span>
+  • <span style="color: #CCD0CF;">B.Tech in Computer Science and Engineering (Data Science)</span>
     RGM College of Engineering and Technology (RGMCET), Nandyal
-    Status: <span style="color:#10b981; font-weight:700;">Graduated (Nov 2022 – Apr 2026)</span> | CGPA: <span style="color:#10b981; font-weight:700;">7.64 / 10</span>
+    Status: <span style="color:#10b981; font-weight:700;">Graduated (Nov 2022 – Apr 2026)</span> | CGPA: <span style="color:#CCD0CF; font-weight:700;">7.64 / 10</span>
 `,
     contact: () => `
-<span style="color: #38bdf8; font-weight: 700;">Contact & Profiles:</span>
-  • Email:    <a href="mailto:jillella215@gmail.com" style="color:#38bdf8;">jillella215@gmail.com</a>
-  • Phone:    <a href="tel:8688123239" style="color:#38bdf8;">+91 8688123239</a>
-  • LinkedIn: <a href="https://www.linkedin.com/in/janardhan-jillella/" target="_blank" style="color:#38bdf8;">linkedin.com/in/janardhan-jillella/</a>
-  • GitHub:   <a href="https://github.com/Janardhan-Jillela" target="_blank" style="color:#38bdf8;">github.com/Janardhan-Jillela</a>
+<span style="color: #CCD0CF; font-weight: 700;">Contact & Profiles:</span>
+  • Email:    <a href="mailto:jillella215@gmail.com" style="color:#CCD0CF;">jillella215@gmail.com</a>
+  • Phone:    <a href="tel:8688123239" style="color:#CCD0CF;">+91 8688123239</a>
+  • LinkedIn: <a href="https://www.linkedin.com/in/janardhan-jillella/" target="_blank" style="color:#CCD0CF;">linkedin.com/in/janardhan-jillella/</a>
+  • GitHub:   <a href="https://github.com/Janardhan-Jillela" target="_blank" style="color:#CCD0CF;">github.com/Janardhan-Jillela</a>
 `,
     github: () => {
       window.open('https://github.com/Janardhan-Jillela', '_blank');
-      return `Navigating to <span style="color:#38bdf8;">https://github.com/Janardhan-Jillela</span>...`;
+      return `Navigating to <span style="color:#CCD0CF;">https://github.com/Janardhan-Jillela</span>...`;
     },
     clear: () => {
       terminalOutput.innerHTML = '';
