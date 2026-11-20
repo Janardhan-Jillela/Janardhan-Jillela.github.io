@@ -354,7 +354,7 @@ function initTerminal() {
   • <span style="color:#f59e0b;">clear</span>       - Clear the terminal screen
 `,
     about: () => `
-<span style="color: #38bdf8; font-weight: 700;">Jillela Janardhan</span> — Computer Science Engineer specializing in Data Science.
+<span style="color: #38bdf8; font-weight: 700;">Jillela Janardhan</span> — B.Tech Graduate in Computer Science &amp; Engineering (Data Science) from RGMCET.
 Passionate about engineering production-grade AI solutions, real-time computer vision (YOLOv8/v9, ResNet50, OpenCV),
 and deploying interactive Streamlit applications. Proficient in Python, SQL, and Deep Learning pipelines.
 `,
@@ -391,7 +391,7 @@ and deploying interactive Streamlit applications. Proficient in Python, SQL, and
 <span style="color: #38bdf8; font-weight: 700;">Academic Credentials:</span>
   • <span style="color: #38bdf8;">B.Tech in Computer Science and Engineering (Data Science)</span>
     RGM College of Engineering and Technology (RGMCET), Nandyal
-    CGPA: <span style="color:#10b981; font-weight:700;">7.64 / 10</span> | Duration: Nov 2022 – Apr 2026
+    Status: <span style="color:#10b981; font-weight:700;">Graduated (Nov 2022 – Apr 2026)</span> | CGPA: <span style="color:#10b981; font-weight:700;">7.64 / 10</span>
 `,
     contact: () => `
 <span style="color: #38bdf8; font-weight: 700;">Contact & Profiles:</span>

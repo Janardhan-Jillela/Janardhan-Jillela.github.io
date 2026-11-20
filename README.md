@@ -21,7 +21,7 @@
 ## 🌟 Key Sections & Features
 
 1. **Hero Section**:
-   - Live availability badge (`Open to AI/ML Roles • Graduating 2026`)
+   - Live availability badge (`Open to Full-Time AI/ML Roles • B.Tech Graduate (Data Science)`)
    - Animated typewriter roles
    - Key achievement stat counters (`86.14% Accuracy`, `80+ FPS`, `3+ Flagship AI Projects`, `7.64 CGPA`)
    - Direct CTA links to GitHub repositories and contact channels
