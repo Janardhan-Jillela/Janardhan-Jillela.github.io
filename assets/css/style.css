@@ -755,8 +755,9 @@ h1, h2, h3, h4, h5, h6 {
   gap: 0.4rem;
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius-full);
-  background: rgba(56, 189, 248, 0.1);
-  color: var(--accent-cyan-bright);
+  background: rgba(37, 55, 69, 0.55);
+  border: 1px solid rgba(74, 92, 106, 0.4);
+  color: var(--text-primary);
   font-size: 0.85rem;
   font-weight: 600;
 }
@@ -1538,8 +1539,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .form-control:focus {
   outline: none;
-  border-color: var(--accent-cyan-bright);
-  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+  border-color: #CCD0CF;
+  box-shadow: 0 0 0 3px rgba(155, 168, 171, 0.35);
 }
 
 textarea.form-control {

@@ -434,7 +434,7 @@ and deploying interactive Streamlit applications. Proficient in Python, SQL, and
       errorLine.className = 'terminal-line';
       errorLine.style.color = '#ef4444';
       errorLine.style.marginBottom = '0.5rem';
-      errorLine.innerHTML = `command not found: "${escapeHtml(rawInput)}". Type <span style="color:#38bdf8; cursor:pointer;" onclick="runChipCommand('help')">'help'</span> for a list of commands.`;
+      errorLine.innerHTML = `command not found: "${escapeHtml(rawInput)}". Type <span style="color:#CCD0CF; text-decoration:underline; cursor:pointer;" onclick="runChipCommand('help')">'help'</span> for a list of commands.`;
       terminalOutput.appendChild(errorLine);
     }
 
